@@ -35,10 +35,12 @@
     "html"
     "css"
     "js"
+    "ts"
     "react"
     "tailwind"
     "git"
-    "github";
+    "github"
+    "psql";
   gap: 3rem;
 }
 
@@ -101,6 +103,13 @@
   justify-self: center;
   animation: wave-effect 2.1s infinite;
 }
+.skills__tech:nth-child(3) {
+  grid-area: js;
+  width: 10rem;
+  align-self: center;
+  justify-self: center;
+  animation: wave-effect 2.1s infinite;
+}
 .skills__tech:nth-child(4) {
   grid-area: react;
   width: 16rem;
@@ -119,6 +128,15 @@
   grid-area: git;
   animation: wave-effect 2.1s infinite;
 }
+.skills__tech:nth-child(8) {
+  grid-area: ts;
+  animation: wave-effect 2.1s infinite;
+}
+
+.skills__tech:nth-child(9) {
+  grid-area: psql;
+  animation: wave-effect 2.1s infinite;
+}
 
 .skills__wave {
   position: relative;
@@ -131,6 +149,7 @@
       "html html css css"
       "js js react react"
       "git git github github"
+      "ts ts psql psql"
       ". tailwind tailwind .";
   }
 }
@@ -154,8 +173,10 @@
       "js react"
       "git github"
       "git github"
-      "tailwind tailwind"
-      "tailwind tailwind";
+      "tailwind ts"
+      "tailwind ts"
+      "psql psql"
+      "psql psql";
     gap: 3rem;
   }
 
@@ -187,10 +208,10 @@
     padding: 0 17.6rem;
     margin: 10rem 0 0 0;
     grid-template-areas:
-      "html css  js  react  tailwind"
-      "html css  js  react  tailwind"
-      "html git  js  github tailwind"
-      "html git  js  github tailwind";
+      "html  js  react   tailwind"
+      "css   js  react   psql"
+      "css   js   git    psql"
+      "ts    js   git    github";
     align-items: center;
     justify-items: center;
 
