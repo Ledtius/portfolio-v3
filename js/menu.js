@@ -23,6 +23,7 @@ import "../image/blackjack-mockup.webp";
 import "../image/mockup-public.webp";
 import "../image/task-management-mockup.webp";
 import "../image/mockupBookFinder.webp";
+import "../image/giphy-app.webp"
 
 /* Menu resposive */
 const headerMenu = document.querySelector(".header__menu");
